@@ -8,7 +8,7 @@ import pyodbc
 # ==============================
 @st.cache_data
 def carregar_base():
-    caminho_db = r"\\lctbrfsr01\Corporativo_SPO\Logistica\USUÁRIOS\Banco_Dados\Banco_Dados_Recebimento.accdb"
+    caminho_db = r"\\******************************\Banco_Dados\Banco_Dados_Recebimento.accdb"
     conn_str = (
         r"Driver={Microsoft Access Driver (*.mdb, *.accdb)};"
         fr"DBQ={caminho_db};"
